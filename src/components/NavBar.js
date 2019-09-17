@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Menu, Header, Image } from 'semantic-ui-react';
+import { Menu, Header, Image, Button } from 'semantic-ui-react';
 import { NavLink, withRouter } from "react-router-dom";
 
 class NavBar extends React.Component {
@@ -13,7 +13,14 @@ class NavBar extends React.Component {
 
             <Menu className="mainNav" >
             <Fragment>
-                
+
+            <Image 
+                src="main-nav-logo-top-left.png" 
+                size="small" 
+                className="main-nav-logo-top-left"
+                >
+                </Image>
+
                 <Menu.Item 
                     name="Meet Ted"
                     to="/meetted"
@@ -60,14 +67,15 @@ class NavBar extends React.Component {
                         >Contact
                 </Menu.Item>
 
-                <Image 
-                src="main-nav-logo-top-left.png" 
-                size="small" 
-                className="main-nav-logo-top-left"
-                // align="right"
-                floated="right"
-                >
-                </Image>
+             
+                <Button 
+                className="donate"
+                align="right"
+                color="google plus"
+                size="large"
+                >Donate
+                </Button>
+
 
             </Fragment>
             </Menu>

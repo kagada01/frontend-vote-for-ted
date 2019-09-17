@@ -35,6 +35,8 @@
 /* MainNav & Individual Links */
 .mainNav {
   background: #2359B0 !important;
+  margin-bottom: 0px !important;
+  position: relative;
 }
 
 .item {
@@ -43,5 +45,10 @@
 
 .main-nav-logo-top-left {
   position: relative;
-  left: 350px;
+}
+
+.button{
+ position: relative !important;
+ left: 50px !important;
+ font-display: bold;
 }
