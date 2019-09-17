@@ -23,7 +23,7 @@ class NavBar extends React.Component {
 
                 <Menu.Item 
                     name="Meet Ted"
-                    to="/meetted"
+                    to="/meet-ted"
                     as={NavLink}
                     active={activeItem === 'Meet Ted'}
                     // onClick={}       
@@ -33,7 +33,7 @@ class NavBar extends React.Component {
                 <Menu.Item 
                     as={NavLink}
                     name="My Priorities"
-                    to="/mypriorities"
+                    to="/my-priorities"
                     active={activeItem === 'My Priorities'}
                     // onClick={}       
                         >My Priorities
@@ -42,7 +42,7 @@ class NavBar extends React.Component {
                 <Menu.Item 
                     as={NavLink}
                     name="Where I Stand"
-                    to="/whereistand"
+                    to="/where-i-stand"
                     active={activeItem === 'Where I Stand'}
                     // onClick={}       
                         >Where I Stand
@@ -69,12 +69,15 @@ class NavBar extends React.Component {
 
              
                 <Button 
+                floated='right'
+                compact = {true}
                 className="donate"
                 align="right"
                 color="google plus"
-                size="large"
+                size="massive"
                 >Donate
                 </Button>
+
 
 
             </Fragment>

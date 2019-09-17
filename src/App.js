@@ -19,18 +19,18 @@ render() {
 
         <Route exact path="/" render={() => <Redirect to="/home" /> } />
 
-        <Route exact path="/meetted" render={() => {
+        <Route exact path="/meet-ted" render={() => {
             return <MeetTed/>
           } 
         } />
 
-        <Route exact path="/mypriorities" render={() => {
+        <Route exact path="/my-priorities" render={() => {
             return <MyPriorities/>
 
           }
         } />
 
-        <Route exact path="/whereistand" render={() => {
+        <Route exact path="/where-i-stand" render={() => {
             return <WhereIStand/>
 
           }

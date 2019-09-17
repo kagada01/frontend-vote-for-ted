@@ -48,7 +48,39 @@
 }
 
 .button{
- position: relative !important;
- left: 50px !important;
+ position: absolute;
+ /* display: flex; */
+ margin-top: 13px !important;
+ margin-right: 20px !important;
+ right: 0;
+ vertical-align: center;
  font-display: bold;
+}
+
+/* Home Elements */
+
+.home-text-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home-text-main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.endorsements-img {
+  margin: auto;
+  position: absolute;
+}
+
+.ui.image.home-meet-ted-image {
+  left: 5px;
+  margin: 1rem;
+}
+
+.ui.image.home-meet-my-priorities-image {
+  margin: 1rem;
+}
+
+.ui.image.home-meet-where-i-stand-image {
+  margin: 1rem;
 }
