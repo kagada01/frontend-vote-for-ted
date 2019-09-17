@@ -4,7 +4,6 @@ import { NavLink, withRouter } from "react-router-dom";
 
 class NavBar extends React.Component {
     state = {}
-
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
     render() {
@@ -17,6 +16,7 @@ class NavBar extends React.Component {
                 
                 <Menu.Item
                     name="Meet Ted"
+                    to="/meetted"
                     as={NavLink}
                     active={activeItem === 'Meet Ted'}
                     // onClick={}       
@@ -26,6 +26,7 @@ class NavBar extends React.Component {
                 <Menu.Item
                     as={NavLink}
                     name="My Priorities"
+                    to="/mypriorities"
                     active={activeItem === 'My Priorities'}
                     // onClick={}       
                         >My Priorities
@@ -34,6 +35,7 @@ class NavBar extends React.Component {
                 <Menu.Item
                     as={NavLink}
                     name="Where I Stand"
+                    to="/whereistand"
                     active={activeItem === 'Where I Stand'}
                     // onClick={}       
                         >Where I Stand
@@ -43,6 +45,7 @@ class NavBar extends React.Component {
                 <Menu.Item
                     as={NavLink}
                     name="Debate"
+                    to="/debate"
                     active={activeItem === 'Debate'}
                     // onClick={}       
                         >Debate
@@ -51,6 +54,7 @@ class NavBar extends React.Component {
                 <Menu.Item
                     as={NavLink}
                     name="Contact"
+                    to="/contact"
                     active={activeItem === 'Contact'}
                     // onClick={}       
                         >Contact
