@@ -32,6 +32,16 @@
   }
 }
 
+/* MainNav & Individual Links */
 .mainNav {
-  color:#2359B0;
+  background: #2359B0 !important;
+}
+
+.item {
+  color: white !important;
+}
+
+.main-nav-logo-top-left {
+  position: relative;
+  left: 350px;
 }
