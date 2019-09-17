@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import NavBar from "./components/NavBar";
 import Home from "./containers/Home";
@@ -47,7 +47,6 @@ render() {
         }} />
 
      
-
       <Home />
 
       <MeetTed />
