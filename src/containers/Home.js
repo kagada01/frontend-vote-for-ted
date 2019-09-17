@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { NavLink, withRouter } from "react-router-dom";
-import { Divider, Image, Header } from 'semantic-ui-react';
+import { Divider, Image, Header, Container } from 'semantic-ui-react';
 import JoinTeamTed from "../components/JoinTeamTed";
+import Footer from "../containers/Footer";
 
 
 class Home extends React.Component {
@@ -24,12 +25,16 @@ render() {
         
         </Image>
         
+        <br></br>
+
         <h1 
         className="home-text-title"
         align="center">Restoring a Voice for Needham, Dover, and Medfield
         </h1>
         
-        <p align="center"className="home-text-main">
+        <Container
+        className="home-text-main">
+        <p align="center">
         <b>Now more than ever, we need a State Representative who will stand up for government integrity
         and actively champion progressive causes. As the federal government continues to threaten our programs, 
         our elected officials need to fight back. With progress hindered by an unresponsive State House that hides 
@@ -38,6 +43,7 @@ render() {
         quo on Beacon Hill and proactively protect the policies that make Massachusetts feel like home.
         </b>
         </p>
+        </Container>
 
         <br></br>
     
@@ -69,36 +75,33 @@ render() {
             size='medium'>
             <Image 
                 className="home-meet-ted-image"
-                src={meetTedCardImage} />
+                label="Meet Ted"
+                to="/meet-ted"
+                as={NavLink}
+                src={meetTedCardImage} 
+                />
             <Image 
                 className="home-meet-my-priorities-image"
+                to="/my-priorities"
+                as={NavLink}
+                label="My Priorities"
                 src={myPrioritiesCardImage} />
             <Image 
-                className="home-meet-where-i-stand-image"
+                className="home-where-i-stand-image"
+                to="/where-i-stand"
+                as={NavLink}
+                label="Where I Stand"
                 src={whereIStandCardImage} />
         </Image.Group>
 
-        <div className="home-other-pages-text-links">
-            <Header
-                size='large'
-                textAlign="center"
-                >Meet Ted
-            </Header>
-            <Header
-                size='large'
-                textAlign="center"
-                >My Priorities
-            </Header>
-            <Header
-                size='large'
-                textAlign="center"
-                >Where I Stand
-            </Header>
+        <Divider>
+        </Divider>
+        <br></br>
+        <br></br>
 
-        </div>
+        <JoinTeamTed />
 
-         <JoinTeamTed />
-
+        <Footer></Footer>
          </Fragment>
     )
 }

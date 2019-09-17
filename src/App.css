@@ -49,7 +49,6 @@
 
 .button{
  position: absolute;
- /* display: flex; */
  margin-top: 13px !important;
  margin-right: 20px !important;
  right: 0;
@@ -64,6 +63,7 @@
 }
 
 .home-text-main {
+  line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,6 +81,51 @@
   margin: 1rem;
 }
 
-.ui.image.home-meet-where-i-stand-image {
+.ui.image.home-where-i-stand-image {
   margin: 1rem;
+}
+
+/* Join Team Ted Component */
+
+.join-team-ted-div {
+  /* position: relative !important; */
+  /* float: center; */
+}
+
+.join-team-ted-logo {
+  margin-left: 200px;
+  display: flex;
+  float: left;
+}
+
+.cta-join-team-ted {
+  color: #2359B0;
+  margin-top: 75px;
+  margin-left: 100px; 
+  position: relative; 
+  vertical-align: middle;
+  float: left;
+  display: center; 
+}
+
+.ui.form.email-submit-form {
+  margin-top: 35px;
+  margin-left: 130px; 
+  position: relative;
+  float: left;
+  /* display: flex; */
+}
+
+.ui.button.submit-email-button {
+  position: relative;
+  display: flex;
+  margin-top: 5px !important;
+  margin-left: 45px !important;
+}
+
+/* Footer */
+
+.main-footer {
+  position: relative !important;
+  display: center; 
 }
