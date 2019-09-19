@@ -101,7 +101,7 @@ render() {
 
         <JoinTeamTed />
 
-        <Footer></Footer>
+        <Footer/>
          </Fragment>
     )
 }

@@ -5,11 +5,16 @@ class Footer extends React.Component {
 
 render() {
     return(
+        
+     <Fragment>
      
-     <Fragment
-     className="main-footer">
-    
-        <p>Footer</p>
+       <Container
+       className="main-footer"
+       width={1000}> 
+        
+            <p>Footer</p>
+        </Container>
+      
     
     </Fragment>
     )

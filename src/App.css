@@ -37,6 +37,7 @@
   background: #2359B0 !important;
   margin-bottom: 0px !important;
   position: relative;
+  height: 90px;
 }
 
 .item {
@@ -49,7 +50,7 @@
 
 .button{
  position: absolute;
- margin-top: 13px !important;
+ margin-top: 20px !important;
  margin-right: 20px !important;
  right: 0;
  vertical-align: center;
@@ -101,7 +102,7 @@
 .cta-join-team-ted {
   color: #2359B0;
   margin-top: 75px;
-  margin-left: 100px; 
+  margin-left: 90px; 
   position: relative; 
   vertical-align: middle;
   float: left;
@@ -125,7 +126,13 @@
 
 /* Footer */
 
-.main-footer {
+.ui.container.main-footer {
+  margin-top: 20px;
+  background-color: #2359B0 !important;
+  display: inline-flex !important;
+  height: 250px;
+  width: 1500px !important;
   position: relative !important;
-  display: center; 
+  left:0px !important;
+  right:0px !important;
 }
