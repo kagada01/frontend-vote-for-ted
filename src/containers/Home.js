@@ -22,7 +22,6 @@ render() {
         
         <Image
         src="home-main-image.png">
-        
         </Image>
         
         <br></br>

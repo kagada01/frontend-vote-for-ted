@@ -29,7 +29,7 @@ render() {
     className="email-submit-form">
         <Form.Input 
         label='Email' 
-        placeholder='joe@schmoe.com'
+        placeholder='ted@vote4ted.com'
         inline={false}
         />
         <Message
