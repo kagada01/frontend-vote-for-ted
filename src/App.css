@@ -36,8 +36,8 @@
 .mainNav {
   background: #2359B0 !important;
   margin-bottom: 0px !important;
-  position: relative;
-  height: 140px;
+  position: static !important;
+  height: 130px;
 }
 
 .item {
@@ -45,7 +45,7 @@
 }
 
 .main-nav-logo-top-left {
-  position: relative;
+  position: static;
   left: 0 !important;
 }
 
@@ -96,7 +96,7 @@
 
 .join-team-ted-logo {
   margin-left: 200px;
-  display: flex;
+  display: static;
   float: left;
 }
 
@@ -104,7 +104,7 @@
   color: #2359B0;
   margin-top: 75px;
   margin-left: 90px; 
-  position: relative; 
+  position: static; 
   vertical-align: middle;
   float: left;
   display: center; 
@@ -113,14 +113,14 @@
 .ui.form.email-submit-form {
   margin-top: 35px;
   margin-left: 130px; 
-  position: relative;
+  position: static;
   float: left;
   /* display: flex; */
 }
 
 .ui.button.submit-email-button {
-  position: relative;
-  display: flex;
+  position: static;
+  right: 180px;
   margin-top: 5px !important;
   margin-left: 45px !important;
 }
@@ -131,9 +131,52 @@
   margin-top: 20px;
   background-color: #2359B0 !important;
   display: inline-flex !important;
-  height: 250px;
+  height: 200px;
   width: 1500px !important;
   position: relative !important;
   left:0px !important;
   right:0px !important;
+}
+
+.sm-button-group {
+  position: absolute !important;
+  bottom: 110px;
+  left: 330px !important;
+  right: 400px !important;
+  width: 50%;
+}
+
+.ui.twitter.icon.button {
+  position: relative !important;
+  left: 0px;
+  height: 40px;
+  right: 0px;
+  
+}
+
+.ui.instagram.icon.right.floated.button {
+  position: relative !important;
+  left: 0px;
+  right: 0px;
+
+}
+
+.ui.facebook.icon.button {
+  position: relative !important;
+  left: 0px;
+  right: 0px;
+  
+}
+
+.ui.google.plus.small.inverted.button {
+  position: relative !important;
+  right: 0px !important;
+}
+.ui.header.created-by-tag {
+  color: white;
+  position: absolute !important;
+  right: 300px !important;
+  left: 415px !important;
+  bottom: 40px !important;
+  /* left: 0px ; */
 }
