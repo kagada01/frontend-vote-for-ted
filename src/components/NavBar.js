@@ -16,12 +16,12 @@ class NavBar extends React.Component {
 
             <Image 
                 src="main-nav-logo-top-left.png" 
-                size="small" 
+                size="medium" 
                 className="main-nav-logo-top-left"
                 >
                 </Image>
 
-                <Menu.Item 
+                <Menu.Item header
                     name="Meet Ted"
                     to="/meet-ted"
                     as={NavLink}
@@ -30,7 +30,7 @@ class NavBar extends React.Component {
                         >Meet Ted
                 </Menu.Item>
             
-                <Menu.Item 
+                <Menu.Item header
                     as={NavLink}
                     name="My Priorities"
                     to="/my-priorities"
@@ -39,7 +39,7 @@ class NavBar extends React.Component {
                         >My Priorities
                 </Menu.Item>
 
-                <Menu.Item 
+                <Menu.Item header
                     as={NavLink}
                     name="Where I Stand"
                     to="/where-i-stand"
@@ -49,7 +49,7 @@ class NavBar extends React.Component {
                 </Menu.Item>
 
 
-                <Menu.Item 
+                <Menu.Item header
                     as={NavLink}
                     name="Debate"
                     to="/debate"
@@ -58,7 +58,7 @@ class NavBar extends React.Component {
                         >Debate
                 </Menu.Item>
 
-                <Menu.Item 
+                <Menu.Item header
                     as={NavLink}
                     name="Contact"
                     to="/contact"

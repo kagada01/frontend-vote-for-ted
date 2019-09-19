@@ -37,7 +37,7 @@
   background: #2359B0 !important;
   margin-bottom: 0px !important;
   position: relative;
-  height: 90px;
+  height: 140px;
 }
 
 .item {
@@ -46,12 +46,13 @@
 
 .main-nav-logo-top-left {
   position: relative;
+  left: 0 !important;
 }
 
 .button{
- position: absolute;
- margin-top: 20px !important;
- margin-right: 20px !important;
+ position: absolute !important;
+ margin-top: 50px !important;
+ margin-right: 40px !important;
  right: 0;
  vertical-align: center;
  font-display: bold;
