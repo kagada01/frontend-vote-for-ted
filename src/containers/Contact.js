@@ -40,11 +40,12 @@ render() {
         </br>
 
         {/* link needs to be updated    */}
+        <address>
         <Header
         id="contact-header-three" 
         size={"medium"}
         textAlign={"center"}
-        >EMAIL ME DIRECTLY: <a href="https://www.google.com">  TED@VOTE4TED.COM</a>
+        >EMAIL ME DIRECTLY: <a href="mailto:ted@vote4ted.com"> TED@VOTE4TED.COM</a>
         </Header>
 
         <Header
@@ -84,7 +85,7 @@ render() {
         textAlign={"center"}
         ><a href="https://www.instagram.com/vote4ted">Instagram</a> 
         </Header>
-
+        </address>
         <JoinTeamTed/>
                 
         <Footer/>
