@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { withRouter } from "react-router-dom";
 import { Divider, Image, Header, Container, Form, Button, Message } from 'semantic-ui-react';
 import Footer from "./Footer";
+import JoinTeamTed from "../components/JoinTeamTed";
 
 class Contact extends React.Component {
 
@@ -84,8 +85,8 @@ render() {
         ><a href="https://www.instagram.com/vote4ted">Instagram</a> 
         </Header>
 
-
-        {/* https://www.instagram.com/vote4ted/ */}
+        <JoinTeamTed/>
+                
         <Footer/>
     </Fragment>
     )
