@@ -26,6 +26,8 @@ render() {
         >I'm Here For You
         </Header>
       
+      {/* Contact Us subheaders */}
+
         <Header
         id="contact-header-two" 
         size={"medium"}
@@ -60,6 +62,7 @@ render() {
 
         <br></br>
 
+        {/* Social Media links */}
         <Header
         id="contact-link-facebook" 
         size={"small"}
@@ -67,8 +70,22 @@ render() {
         ><a href="https://www.facebook.com/vote4ted.steinberg">Facebook</a> 
         </Header>
 
+        <Header
+        id="contact-link-twitter" 
+        size={"small"}
+        textAlign={"center"}
+        ><a href="https://twitter.com/vote4ted">Twitter</a> 
+        </Header>
+
+        <Header
+        id="contact-link-instagram" 
+        size={"small"}
+        textAlign={"center"}
+        ><a href="https://www.instagram.com/vote4ted">Instagram</a> 
+        </Header>
 
 
+        {/* https://www.instagram.com/vote4ted/ */}
         <Footer/>
     </Fragment>
     )
