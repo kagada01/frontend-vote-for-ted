@@ -184,3 +184,19 @@
   bottom: 40px !important;
   /* left: 0px ; */
 }
+
+/* Debate Page styling */
+.debate-video-container {
+  width: 50% !important;
+  position: relative !important;
+  left: 325px !important;
+}
+
+.item {
+  color: black !important;
+}
+
+.ui.list.debate-timestamps-list-container {
+  position: relative !important;
+  left: 50px !important;
+}
