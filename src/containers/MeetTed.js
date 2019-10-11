@@ -39,8 +39,19 @@ render() {
         </Container>
 
         <div className="local-roots-container">
-        <Image src={localRootsImage}>
-        </Image>
+            <Image src={localRootsImage}>
+            </Image>
+            
+            <List className="local-roots-list">
+                <Header className="local-roots-header" as={"h2"}>Local Roots</Header>
+                <List.Item>- Needham Public Schools</List.Item>
+                    <br></br>
+                <List.Item>- Temple Aliyah</List.Item>
+                    <br></br>
+                <List.Item>- Needham Youth Hockey, Little League, and Soccer</List.Item>
+                    <br></br>
+                <List.Item>- Needham Community Theater</List.Item>
+            </List>
 
         </div>
 

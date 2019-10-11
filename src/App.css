@@ -40,7 +40,7 @@
   height: 130px;
 }
 
-.item {
+.header.item {
   color: white !important;
 }
 
@@ -199,4 +199,18 @@
 .ui.list.debate-timestamps-list-container {
   position: relative !important;
   left: 50px !important;
+}
+
+
+/* Meet Ted */
+
+.local-roots-container {
+  position: relative !important;
+  width: 50% !important;
+}
+
+.local-roots-list {
+  position: relative !important;
+  left: 0px !important;
+  margin: 1rem;
 }
