@@ -30,14 +30,41 @@ render() {
         id="contact-header-two" 
         size={"medium"}
         textAlign={"center"}
-        >NO ONE LIKES FORM 
+        >NO ONE LIKES FORM RESPONSES 
+        </Header>
+        
+        <br>
+        </br>
+
+        {/* link needs to be updated    */}
+        <Header
+        id="contact-header-three" 
+        size={"medium"}
+        textAlign={"center"}
+        >EMAIL ME DIRECTLY: <a href="https://www.google.com">  TED@VOTE4TED.COM</a>
         </Header>
 
         <Header
-        id="contact-header-two" 
+        id="contact-header-four" 
         size={"medium"}
         textAlign={"center"}
-        >NO ONE LIKES FORM 
+        >CALL ME DIRECTLY:   (339)225-2399
+        </Header>
+
+        <Header
+        id="contact-header-five" 
+        size={"medium"}
+        textAlign={"center"}
+        >WRITE ME DIRECTLY: P.O. BOX 692, NEEDHAM, MA 02494 
+        </Header>
+
+        <br></br>
+
+        <Header
+        id="contact-link-facebook" 
+        size={"small"}
+        textAlign={"center"}
+        ><a href="https://www.facebook.com/vote4ted.steinberg">Facebook</a> 
         </Header>
 
 
