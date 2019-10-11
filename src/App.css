@@ -104,25 +104,29 @@
   color: #2359B0;
   margin-top: 75px;
   margin-left: 90px; 
+  margin-right: 150px;
   position: static; 
   vertical-align: middle;
   float: left;
   display: center; 
 }
 
-.ui.form.email-submit-form {
-  margin-top: 35px;
-  margin-left: 130px; 
-  position: static;
+.email-submit-form {
+  /* margin-top: 35px; */
+  position: absolute;
   float: left;
-  /* display: flex; */
+  display: inline;
 }
 
 .ui.button.submit-email-button {
-  position: static;
-  right: 180px;
-  margin-top: 5px !important;
-  margin-left: 45px !important;
+  position: absolute !important;
+  right: 320px !important;
+  margin-top: 75px !important;
+  /* bottom: 40px !important; */
+  /* display: inline-flex !important;  */
+  /* float: left !important; */
+  /* margin-top: 0px !important;
+  /* margin-left: 45px !important; */
 }
 
 /* Footer */

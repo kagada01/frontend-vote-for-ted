@@ -37,11 +37,14 @@ render() {
         header='Form Completed'
         content="You're all signed up for the newsletter"
         />
-        <Button
-            className="submit-email-button"
-        >Submit</Button>
+        
     </Form>
-
+    <div>
+    <Button
+            className="submit-email-button"
+        >Submit
+        </Button>
+    </div>
   </div>
 </Fragment>
     )
