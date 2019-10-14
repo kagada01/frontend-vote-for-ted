@@ -198,7 +198,7 @@
 
 .ui.list.debate-timestamps-list-container {
   position: relative !important;
-  left: 50px !important;
+  /* left: 50px !important; */
 }
 
 
@@ -206,11 +206,16 @@
 
 .local-roots-container {
   position: relative !important;
-  width: 50% !important;
+  width:30% !important;
+  height: 50% !important;
+  display: inline-flex !important;
 }
 
 .local-roots-list {
-  position: relative !important;
-  left: 0px !important;
-  margin: 1rem;
+  background-color: #2359B0;
+  position: absolute !important;
+  /* right: 100px !important; */
+  top: 100px !important;
+  left: 500px !important;
+  width: 100% !important;
 }

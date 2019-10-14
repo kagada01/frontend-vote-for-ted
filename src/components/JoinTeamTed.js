@@ -40,7 +40,7 @@ render() {
         
     </Form>
     <div>
-    <Button
+        <Button
             className="submit-email-button"
         >Submit
         </Button>
