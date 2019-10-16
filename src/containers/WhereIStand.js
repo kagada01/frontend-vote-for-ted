@@ -34,37 +34,39 @@ render() {
 
         <Divider></Divider>
 
-                    {/* TRANSPARENCY SECTION */}
+                    {/* ECONOMIC EQUALITY SECTION */}
 
         <br></br>
         <br></br>
 
-        <Container text className="priorities-transparency-container">
-            <Header as="h2">TRANSPARENCY</Header>
+        <Container text className="where-I-stand-economic-equality-container">
+            <Header as="h2">ECONOMIC EQUALITY</Header>
             
             <p>
-            The Massachusetts legislature consistently receives some of the worst 
-            grades in the country for transparency and public records laws. 
-            We cannot hold our elected officials accountable when they hide behind 
-            unrecorded votes. I promise to publish a comprehensive list of my record, 
-            with accompanying explanations and reasoning.
+            We can no longer rely on the Federal government for economic support. 
+            To maintain the best schools and quality of life in the country, we 
+            must continue to invest in our communities with responsible spending. 
+            We want an economy that works for everyone. That means enhancing 
+            programs that protect our most vulnerable populations, and giving 
+            families – young and old – the tools they need to succeed in the 
+            modern economy.
             </p>
         
-            <List bulleted={true} className="priorities-transparency-bl">
+            <List bulleted={true} className="where-I-stand-economic-equality-bl">
                 <List.Item>
-                    <b>Action Item:</b> Maintain voting log
+                    <b>Action Item:</b> Sponsor legislation requiring paid family leave
                 </List.Item>
                 
                 <List.Item> 
-                    <b>Action Item:</b> End legislative <a>exemptions</a> from Public Records and Open Meeting laws
+                    <b>Action Item:</b> Sponsor legislation establishing a Family Caregiver tax credit
                 </List.Item> 
                     
                 <List.Item>
-                    <b>Action Item:</b> Introduce legislation to make recorded votes the default in the State Legislature
+                    <b>Action Item:</b> Sponsor legislation for a modern minimum wage that adjusts with inflation
                 </List.Item>    
                     
                 <List.Item>
-                    <b>Action Item:</b> Sponsor the We The People Act to take dark money out of politics
+                    <b>Action Item:</b> Support the “Millionaire Tax” and ensure it generates revenue for education and infrastructure
                 </List.Item>
             </List>
 
@@ -75,6 +77,162 @@ render() {
         <br></br>
         <br></br>
     
+
+        <Divider></Divider>
+
+                    {/* CIVIL RIGHTS SECTION */}
+
+        <br></br>
+        <br></br>
+
+        <Container text className="where-I-stand-civil-rights-container">
+            <Header as="h2">CIVIL RIGHTS</Header>
+            
+            <p>
+            Massachusetts must remain a beacon for civil rights and individual freedoms. 
+            Discrimination has no place in our Commonwealth. Legislation can serve as the 
+            preemptive conduit for social change. We must continue to bolster our laws 
+            until everyone receives equal treatment and protection.
+            </p>
+        
+            <List bulleted={true} className="where-I-stand-civil-rights-bl">
+                <List.Item>
+                    <b>Action Item:</b> Secure protections for the LGBTQ+ community
+                </List.Item>
+                
+                <List.Item> 
+                    <b>Action Item:</b> Re-introduce the Safe Communities Act and ensure it gets a vote
+                </List.Item> 
+                    
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation banning conversion therapy
+                </List.Item>    
+                    
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation increasing penalties for disability-based discrimination in schools and housing
+                </List.Item>
+
+                <List.Item>
+                    <b>Action Item:</b> Institute “Know Your Rights” education programming
+                </List.Item>
+            </List>
+
+        </Container>
+
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+
+        <Divider></Divider>
+
+                    {/* ENVIRONMENT SECTION */}
+
+        <br></br>
+        <br></br>
+
+        <Container text className="where-I-stand-environment-container">
+            <Header as="h2">ENVIRONMENT</Header>
+            
+            <p>
+            We must take swift and decisive action to reverse the effects 
+            of climate change and reduce our pollutant footprint. To achieve 
+            ambitious renewable energy goals, we need dedicated leaders that 
+            prioritize sustainability and are ready to work with the business 
+            community on pragmatic solutions.
+            </p>
+        
+            <List bulleted={true} className="where-I-stand-environment-bl">
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation setting timeline for 100% renewable energy,
+                     including investments in solar and wind power and 3% RPS increase
+                </List.Item>
+                
+                <List.Item> 
+                    <b>Action Item:</b> Sponsor legislation reducing greenhouse gas emissions and instituting new pollutant taxes
+                </List.Item> 
+                    
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation divesting in fossil fuel
+                </List.Item>    
+                    
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation tracking fuel emissions and promoting zero-emission vehicles
+                </List.Item>
+
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation requiring environmental impact reports for large-scale development and adherence to Public Lands Protection guidelines
+                </List.Item>
+            </List>
+
+        </Container>
+
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <Divider></Divider>
+
+                    {/* EDUCATION SECTION */}
+
+        <br></br>
+        <br></br>
+
+        <Container text className="where-I-stand-education-container">
+            <Header as="h2">EDUCATION</Header>
+            
+            <p>
+            Education is the backbone of society. I am committed to keeping education
+            a priority in the Commonwealth. The government must modernize the funding
+            formula for schools to combat overcrowded classrooms and ensure all 
+            Massachusetts students are on a path to success. As student loan debt 
+            now accounts for a larger burden than credit card debt, we must take 
+            immediate action to maintain the promise of quality education for all students.
+            </p>
+        
+            <List bulleted={true} className="where-I-stand-education-bl">
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation to modernize the funding formula for public schools
+                </List.Item>
+                
+                <List.Item> 
+                    <b>Action Item:</b> Tax wealthiest college and university endowments to increase education funding
+                </List.Item> 
+                    
+                <List.Item>
+                    <b>Action Item:</b> “Locked” tuition price at state institutions at time of enrollment
+                </List.Item>    
+                    
+                <List.Item>
+                    <b>Action Item:</b> Create a self-sustaining pay-it-forward Scholarship Fund modeled after the HOPE Scholarship
+                </List.Item>
+
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation for universal pre-k
+                </List.Item>
+
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation strengthening investment in teachers, students, and community involvement in education planning
+                </List.Item>
+
+                <List.Item>
+                    <b>Action Item:</b> Ensure school curricula are LGBT+ inclusive
+                </List.Item>
+
+                <List.Item>
+                    <b>Action Item:</b> Sponsor legislation creating student loan repayment plans for public interest graduates working in underserved areas
+                </List.Item>
+            </List>
+
+        </Container>
+
+
+        <br></br>
+        <br></br>
+        <br></br>
+
 
         <JoinTeamTed/>
         <Footer/>
