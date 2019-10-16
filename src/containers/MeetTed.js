@@ -39,7 +39,9 @@ render() {
         </Container>
 
         <div className="local-roots-container">
-            <Image src={localRootsImage}>
+            <Image 
+            className="local-roots-image"
+            src={localRootsImage}>
             </Image>
             
             <List className="local-roots-list">

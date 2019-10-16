@@ -198,7 +198,7 @@
 
 .ui.list.debate-timestamps-list-container {
   position: relative !important;
-  /* left: 50px !important; */
+  left: 50px !important;
 }
 
 
@@ -218,4 +218,9 @@
   top: 100px !important;
   left: 500px !important;
   width: 100% !important;
+}
+
+.ui.image.local-roots-image {
+  
+
 }
