@@ -40,7 +40,7 @@ render() {
         </br>
 
         {/* link needs to be updated    */}
-        <address>
+      
         <Header
         id="contact-header-three" 
         size={"medium"}
@@ -85,7 +85,7 @@ render() {
         textAlign={"center"}
         ><a href="https://www.instagram.com/vote4ted">Instagram</a> 
         </Header>
-        </address>
+   
         <JoinTeamTed/>
                 
         <Footer/>
