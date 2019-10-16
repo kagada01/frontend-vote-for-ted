@@ -9,7 +9,9 @@ class WhereIStand extends React.Component {
 render() {
     
     let whereIStandImage = "where-i-stand-main-image.png"
-    
+    let taxOpEd = "https://www.bostonglobe.com/metro/regionals/west/2018/02/02/should-any-increases-major-state-taxes-table-state-budget-talks-for-next-year/7oNPmhQFr1h82yjHz2h0RL/story.html"
+    let publicSchoolLaws = "https://publicintegrity.org/federal-politics/state-politics/state-integrity-investigation/massachusetts-gets-d-grade-in-2015-state-integrity-investigation/"
+
     return(
         <Fragment>
 
@@ -236,7 +238,7 @@ render() {
 
         <Divider></Divider>
 
-                    {/* CRIMINAL JUSTICE REFORM SECTION */}
+         {/* CRIMINAL JUSTICE REFORM SECTION */}
 
         <br></br>
         <br></br>
@@ -289,7 +291,7 @@ render() {
 
         <Divider></Divider>
 
-                    {/* HEALTHCARE SECTION */}
+        {/* HEALTHCARE SECTION */}
 
         <br></br>
         <br></br>
@@ -324,7 +326,7 @@ render() {
 
         <Divider></Divider>
 
-                    {/* GOVERNMENT ACCOUNTABILITY & TRANSPARENCY SECTION */}
+        {/* GOVERNMENT ACCOUNTABILITY & TRANSPARENCY SECTION */}
 
         <br></br>
         <br></br>
@@ -333,7 +335,7 @@ render() {
             <Header as="h2">GOVERNMENT ACCOUNTABILITY & TRANSPARENCY</Header>
             
             <p>
-            Home to some of the worst public records laws in the country, 
+            Home to some of the <a href={publicSchoolLaws}>worst</a> public records laws in the country, 
             with low rates of compliance for public information requests, 
             Massachusetts residents deserve better than the status quo. 
             Our representatives rely on old-school political tactics to avoid 
@@ -378,56 +380,238 @@ render() {
 
         <Divider></Divider>
 
-{/* SEXUAL ASSAULT & DOMESTIC VIOLENCE SECTION */}
+        {/* SEXUAL ASSAULT & DOMESTIC VIOLENCE SECTION */}
+
+        <br></br>
+        <br></br>
+
+        <Container text className="where-I-stand-sexual-assault-domestic-violence-container">
+        <Header as="h2">SEXUAL ASSAULT & DOMESTIC VIOLENCE</Header>
+
+        <p>
+        As sexual assault and domestic violence continue to plague society, 
+        it is clear our Commonwealth must do more to combat this epidemic. 
+        One in five women on college campuses experience sexual assault. 
+        We need more proactive solutions. Mandatory consent education courses 
+        will teach our future leaders the importance of healthy relationships, 
+        and provide techniques for bystander intervention. We need to update 
+        the state institutions dedicated to sexual assault and domestic violence, 
+        ensuring accessible and comprehensive support and resources. 
+        There are too many “me too” stories to maintain the status quo of inaction.
+        </p>
+
+        <List bulleted={true} className="where-I-stand-sexual-assault-domestic-violence-bl">
+        <List.Item>
+        <b>Action Item:</b> Develop Consent Education for all high school seniors in state aided institutions
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Sponsor legislation to create sexual assault kit tracking system
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Require sexual assault and harassment training for all state employees
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Require all higher education institutions to report sexual assault statistics to state agencies
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> End the use of non-disclosure agreements for State House staff that file complaints about sexual assault and/or harrassment
+        </List.Item>
+
+        </List>
+
+        </Container>
+
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+
+        <Divider></Divider>
+
+        {/* GUN VIOLENCE PREVENTION SECTION */}
+
+        <br></br>
+        <br></br>
+
+        <Container text className="where-I-stand-gun-violence-prevention-container">
+        <Header as="h2">GUN VIOLENCE PREVENTION</Header>
+
+        <p>
+        Thoughts and prayers are not enough. With more shootings in our country
+         than days of the year, we have a responsibility to enact common sense 
+         gun violence prevention measures. Legislation needs to match the 
+         overwhelming public support for gun reform.
+        </p>
+
+        <List bulleted={true} className="where-I-stand-gun-violence-prevention-bl">
+        <List.Item>
+        <b>Action Item:</b> Sponsor legislation that closes the private sales loophole that circumvents background checks
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Sponsor legislation to take guns away from dangerous individuals and those deemed “extreme risks.”
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Sponsor legislation to enhance penalties for illegal gun sales
+        </List.Item>
+        </List>
+
+        </Container>
+
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <Divider></Divider>
+
+        {/* TRANSPORTATION SECTION */}
+
+        <br></br>
+        <br></br>
+
+        <Container text className="where-I-stand-transportation-container">
+        <Header as="h2">TRANSPORTATION</Header>
+
+        <p>
+        Between our congested streets and constant construction, 
+        Massachusetts needs to prioritize responsible infrastructure in
+        the face of population growth. Rather than the same old spending, 
+        we should invest in “complete streets” that support more sustainable methods of travel. 
+        These efforts must complement safety measures to reduce dangerous distractions 
+        and minimize reckless driving. We must also extend and enhance our archaic public 
+        transportation system that cannot handle New England winters (or summers). 
+        To accommodate modern needs, a larger portion of the greater Boston community 
+        must have increased access to more efficient, more effective transit.
+        </p>
+
+        <List bulleted={true} className="where-I-stand-transportation-bl">
+        <List.Item>
+        <b>Action Item:</b> Direct grants towards local boards that incorporate complete streets into Comprehensive Plans
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Extend Commuter Rail hours for night and weekend travel
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Expand MBTA to reach more Metro West communities
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Fund a study exploring high speed rail across Northeast Corridor
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Sponsor legislation reclassifying seatbelt requirements as a primary infraction
+        </List.Item>
+
+        <List.Item>
+        <b>Action Item:</b> Sponsor new distracted driver laws increasing penalties for handheld phone usage while operating a vehicle
+        </List.Item>
+
+        </List>
+
+        </Container>
+
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <Divider></Divider>
+
+        {/* BALANCED BUDGET SECTION */}
+
+        <br></br>
+        <br></br>
+
+        <Container text className="where-I-stand-balanced-budget-container">
+        <Header as="h2">BALANCED BUDGET</Header>
+
+        <p>
+        Year in and year out, our legislators cannot agree on funding levels. 
+        Ranked 48th in balancing the budget, the Commonwealth cannot protect 
+        our progressive policies when we fail to sufficiently fund the government. 
+        To fix this broken process, we need to start with transparency. 
+        </p>
+
+        <List bulleted={true} className="where-I-stand-balanced-budget-bl">
+            <List.Item>
+                <b>Action Item:</b> Endorse and implement the Massachusetts Budget and Policy Center’s plan for a stronger budget process
+            </List.Item>
+        </List>
+
+        <List>
+            <List.Item>
+                <b><i>Op-ed</i> Boston Globe:</b> 
+                <a href={taxOpEd}> Should any increases in major state taxes be on the table in state budget talks for next year? - <b><i>YES</i></b></a>
+            </List.Item>
+        </List>
+
+        </Container>
+
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+
+        <Divider></Divider>
+
+{/* MENTAL HEALTH SECTION */}
 
 <br></br>
 <br></br>
 
-<Container text className="where-I-stand-sexual-assault-domestic-violence-container">
-<Header as="h2">SEXUAL ASSAULT & DOMESTIC VIOLENCE</Header>
+<Container text className="where-I-stand-mental-health-container">
+<Header as="h2">MENTAL HEALTH</Header>
 
 <p>
-As sexual assault and domestic violence continue to plague society, 
-it is clear our Commonwealth must do more to combat this epidemic. 
-One in five women on college campuses experience sexual assault. 
-We need more proactive solutions. Mandatory consent education courses 
-will teach our future leaders the importance of healthy relationships, 
-and provide techniques for bystander intervention. We need to update 
-the state institutions dedicated to sexual assault and domestic violence, 
-ensuring accessible and comprehensive support and resources. 
-There are too many “me too” stories to maintain the status quo of inaction.
+According to the Treatment Advocacy Center, Massachusetts fails 
+to provide enough psychiatric beds to patients in need of mental 
+health care, and the legislature makes matters worse by cutting 
+the number of available beds throughout the budget process. 
+We should never abandon people with mental health issues. 
+Massachusetts must provide adequate funding and attention to 
+mentally ill patients - mental illness should receive the same 
+level of attention as physical conditions. People with mental illnesses 
+also struggle to find insurance coverage for their care, as many insurance 
+plans only cover a limited range of psychiatric options. With youth depression 
+and suicide rates rising around the country, this is not an epidemic we can afford to ignore.
 </p>
 
-<List bulleted={true} className="where-I-stand-sexual-assault-domestic-violence-bl">
-<List.Item>
-<b>Action Item:</b> Develop Consent Education for all high school seniors in state aided institutions
-</List.Item>
+<List bulleted={true} className="where-I-stand-mental-health-bl">
+    <List.Item>
+        <b>Action Item:</b> Increase funding for mental health treatment and research that will cut back on the stigmatization and criminalization of mental illness
+    </List.Item>
 
-<List.Item>
-<b>Action Item:</b> Sponsor legislation to create sexual assault kit tracking system
-</List.Item>
+    <List.Item>
+        <b>Action Item:</b> Sponsor legislation to create standard youth education programs about mental health
+    </List.Item>
 
-<List.Item>
-<b>Action Item:</b> Require sexual assault and harassment training for all state employees
-</List.Item>
+    <List.Item>
+        <b>Action Item:</b> Enhance regulations on insurance providers to ensure Mental Health Parity and Addition Equity Act compliance
+    </List.Item>
 
-<List.Item>
-<b>Action Item:</b> Require all higher education institutions to report sexual assault statistics to state agencies
-</List.Item>
-
-<List.Item>
-<b>Action Item:</b> End the use of non-disclosure agreements for State House staff that file complaints about sexual assault and/or harrassment
-</List.Item>
+    <List.Item>
+        <b>Action Item:</b> Stop cutting the number of public psychiatric beds
+    </List.Item>
 
 </List>
 
 </Container>
 
-
 <br></br>
 <br></br>
 <br></br>
-
+<br></br>
 
 
         <JoinTeamTed/>
