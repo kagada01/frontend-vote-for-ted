@@ -206,21 +206,28 @@
 
 .local-roots-container {
   position: relative !important;
-  width:30% !important;
+  width:35% !important;
   height: 50% !important;
   display: inline-flex !important;
+
 }
 
 .local-roots-list {
   background-color: #2359B0;
   position: absolute !important;
   /* right: 100px !important; */
-  top: 100px !important;
-  left: 500px !important;
-  width: 100% !important;
+  top: 150px !important;
+  left: 600px !important;
+  width: 75% !important;
 }
 
-.ui.image.local-roots-image {
-  
+.ui.container.local-roots-container {
+  position: relative !important;
+  top: 40px !important;
+  left: 150px !important;
+}
+
+.ui.header.local-roots-header {
+font-size: 50 !important;
 
 }

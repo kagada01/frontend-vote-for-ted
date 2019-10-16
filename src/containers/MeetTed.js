@@ -38,14 +38,14 @@ render() {
                 </p>
         </Container>
 
-        <div className="local-roots-container">
+        <Container className="local-roots-container">
             <Image 
             className="local-roots-image"
             src={localRootsImage}>
             </Image>
             
             <List className="local-roots-list">
-                <Header className="local-roots-header" as={"h2"}>Local Roots</Header>
+                <Header className="local-roots-header" size={"huge"}>Local Roots</Header>
                 <List.Item>- Needham Public Schools</List.Item>
                     <br></br>
                 <List.Item>- Temple Aliyah</List.Item>
@@ -55,7 +55,7 @@ render() {
                 <List.Item>- Needham Community Theater</List.Item>
             </List>
 
-        </div>
+        </Container>
 
         <JoinTeamTed />
 
