@@ -117,7 +117,7 @@
   /* height: 50px !important; */
   /* margin-top: 35px; */
   top: 30px;
-  right: 30px;
+  right: 40px;
   position: relative !important;
   float: left;
   display: block !important;
@@ -217,13 +217,13 @@
   width:35% !important;
   height: 50% !important;
   display: inline-flex !important;
-
 }
 
 .local-roots-list {
   position: absolute !important;
-  top: 150px !important;
-  left: 600px !important;
+  right: -400px;
+  top: 100px !important;
+  float: left !important;
   width: 75% !important;
 }
 
@@ -239,7 +239,7 @@
 
 .ui.container.democratic-activism-container {
   position: relative !important;
-  top: 100px !important;
+  top: 30px !important;
   left: 125px !important;
   float: left !important; 
   bottom: 50px !important;
@@ -254,4 +254,13 @@
   width: 35% !important;
   float: right !important;
   right: 125px !important;
+  bottom: 125px;
+}
+
+.ui.list.democratic-activism-list {
+  position: relative !important;
+  left: 20px;
+  top: 150px !important;
+  width: 50%;
+  margin: 0%;
 }
