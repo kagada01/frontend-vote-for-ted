@@ -8,6 +8,7 @@ import WhereIStand from "./containers/WhereIStand";
 import Debate from "./containers/Debate";
 import Contact from "./containers/Contact";
 import { Route, Switch, Redirect, withRouter, Link } from 'react-router-dom'
+import JoinTeamTed from './components/JoinTeamTed';
 
 class App extends React.Component {
 
@@ -48,6 +49,7 @@ render() {
 
      
       <Home />
+        <JoinTeamTed/>
 
       <MeetTed />
 

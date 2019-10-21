@@ -111,21 +111,29 @@
   display: center; 
 }
 
-.email-submit-form {
+
+
+.ui.form.email-submit-form {
+  /* height: 50px !important; */
   /* margin-top: 35px; */
-  position: absolute;
+  top: 30px;
+  right: 30px;
+  position: relative !important;
   float: left;
-  display: inline;
+  display: block !important;
+  /* left: 100px !important; */
+  width: 12%;
 }
 
 .ui.button.submit-email-button {
-  position: absolute !important;
-  right: 320px !important;
-  margin-top: 75px !important;
+ 
+  position: relative !important;
+  right: -35px !important;
+  /* margin-top: 75px !important; */
   /* bottom: 40px !important; */
-  /* display: inline-flex !important;  */
+  display: inline-block !important; 
   /* float: left !important; */
-  /* margin-top: 0px !important;
+  margin-top: 0px !important;
   /* margin-left: 45px !important; */
 }
 
@@ -213,9 +221,7 @@
 }
 
 .local-roots-list {
-  background-color: #2359B0;
   position: absolute !important;
-  /* right: 100px !important; */
   top: 150px !important;
   left: 600px !important;
   width: 75% !important;
@@ -228,6 +234,24 @@
 }
 
 .ui.header.local-roots-header {
-font-size: 50 !important;
+  font-size: 40px !important;
+}
 
+.ui.container.democratic-activism-container {
+  position: relative !important;
+  top: 100px !important;
+  left: 125px !important;
+  float: left !important; 
+  bottom: 50px !important;
+  margin-bottom: 150px !important;
+}
+
+.ui.huge.header.democratic-activism-header {
+  font-size: 40px !important;
+}
+
+.ui.image.democratic-activism-image {
+  width: 35% !important;
+  float: right !important;
+  right: 125px !important;
 }

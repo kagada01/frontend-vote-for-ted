@@ -12,7 +12,7 @@ render() {
          
 <Fragment>
     
-    <div className="join-team-ted-div">
+    {/* <div className="join-team-ted-div"> */}
         <Image
         className="join-team-ted-logo"
         src={teamTedLogo}
@@ -38,14 +38,16 @@ render() {
         content="You're all signed up for the newsletter"
         />
         
-    </Form>
-    <div>
         <Button
             className="submit-email-button"
         >Submit
         </Button>
-    </div>
-  </div>
+
+    </Form>
+ 
+        
+  
+  {/* </div> */}
 </Fragment>
     )
 }

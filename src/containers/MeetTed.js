@@ -4,6 +4,7 @@ import { Divider, List, Image, Header, Container, Form, Button, Message } from '
 import Footer from "./Footer";
 import JoinTeamTed from "../components/JoinTeamTed"
 
+
 class MeetTed extends React.Component {
 
 render() {
@@ -54,8 +55,26 @@ render() {
                     <br></br>
                 <List.Item>- Needham Community Theater</List.Item>
             </List>
-
         </Container>
+
+        <Container className="democratic-activism-container"> 
+        <List className="democratic-activism-list">
+                <Header className="democratic-activism-header" size={"huge"}>Democratic Activism</Header>
+                <List.Item>- Field Organizer for Gabby Giffords' Protect All Women tour (nine states in nine days)</List.Item>
+                    <br></br>
+                <List.Item>-  Avid canvasser for progressive causes</List.Item>
+                    <br></br>
+                <List.Item>- Author of op-eds and speeches advocating for liberal policies</List.Item>
+                    <br></br>
+            </List>
+        
+            <Image 
+            className="democratic-activism-image"
+            src={demRootsImage}>
+            </Image>
+
+
+        </Container> 
 
         <JoinTeamTed />
 
