@@ -102,26 +102,17 @@
 
 .cta-join-team-ted {
   color: #2359B0;
-  margin-top: 75px;
-  margin-left: 90px; 
-  margin-right: 150px;
-  position: static; 
-  vertical-align: middle;
+  left: 50px;
+  position: relative;
   float: left;
   display: center; 
 }
 
-
-
 .ui.form.email-submit-form {
-  /* height: 50px !important; */
-  /* margin-top: 35px; */
-  top: 30px;
-  right: 40px;
+  left: 150px;
   position: relative !important;
   float: left;
   display: block !important;
-  /* left: 100px !important; */
   width: 12%;
 }
 
@@ -239,11 +230,11 @@
 
 .ui.container.democratic-activism-container {
   position: relative !important;
-  top: 30px !important;
+  top: 10px !important;
   left: 125px !important;
   float: left !important; 
-  bottom: 50px !important;
-  margin-bottom: 150px !important;
+  /* bottom: 10px !important; */
+  margin-bottom: -40px !important;
 }
 
 .ui.huge.header.democratic-activism-header {
@@ -263,4 +254,29 @@
   top: 150px !important;
   width: 50%;
   margin: 0%;
+}
+
+.ui.container.community-service-container {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.ui.image.community-service-image {
+  width: 40%;
+  left: 20px;
+}
+
+.ui.list.community-service-list {
+position: relative !important;
+float: right;
+right: 200px;
+bottom: 400px;
+}
+
+.ui.huge.header.community-service-header {
+  font-size: 40px !important;
+}
+
+.item {
+  font-size: 20px !important;
 }

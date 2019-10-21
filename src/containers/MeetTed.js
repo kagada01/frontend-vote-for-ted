@@ -12,7 +12,8 @@ render() {
     let meetTedImage = "meet-ted-main-image.png"
     let localRootsImage = "meet-ted-local-roots-image.png"
     let demRootsImage = "meet-ted-democratic-activism-image.png"
-    let commService = "meet-ted-community-service-image.png"
+    let commServiceImage = "meet-ted-community-service-image.png"
+
 
     return(
     <Fragment>
@@ -62,21 +63,40 @@ render() {
                 <Header className="democratic-activism-header" size={"huge"}>Democratic Activism</Header>
                 <List.Item>- Field Organizer for Gabby Giffords' Protect All Women tour (nine states in nine days)</List.Item>
                     <br></br>
-                <List.Item>-  Avid canvasser for progressive causes</List.Item>
+                <List.Item>- Avid canvasser for progressive causes</List.Item>
                     <br></br>
                 <List.Item>- Author of op-eds and speeches advocating for liberal policies</List.Item>
                     <br></br>
             </List>
         
             <Image 
-            className="democratic-activism-image"
-            src={demRootsImage}>
+                className="democratic-activism-image"
+                src={demRootsImage}>
             </Image>
-
-
         </Container> 
 
+
+        <Container className="community-service-container">
+            <Image 
+                className="community-service-image"
+                src={commServiceImage}>
+            </Image>
+
+            <List className="community-service-list">
+                <Header className="community-service-header" size={"huge"}>Community Service</Header>
+                <List.Item>- Volunteer at Needham Senior Center</List.Item>
+                    <br></br>
+                <List.Item>- Public speaking coach for at-risk youth</List.Item>
+                    <br></br>
+                <List.Item>- Be the Match Bone Marrow Registry</List.Item>
+                    <br></br>
+            </List>   
+
+        </Container>
+
         <JoinTeamTed />
+
+      
 
         <Footer/>
     </Fragment>

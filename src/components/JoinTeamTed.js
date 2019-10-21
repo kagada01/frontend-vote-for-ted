@@ -11,8 +11,8 @@ render() {
     return(
          
 <Fragment>
-    
-    {/* <div className="join-team-ted-div"> */}
+    <br></br>
+    <br></br>
         <Image
         className="join-team-ted-logo"
         src={teamTedLogo}
@@ -44,10 +44,7 @@ render() {
         </Button>
 
     </Form>
- 
-        
-  
-  {/* </div> */}
+
 </Fragment>
     )
 }
