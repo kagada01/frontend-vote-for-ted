@@ -5,7 +5,7 @@ import { Divider, Image, Header, Container, Form, Button, Message } from 'semant
 class JoinTeamTed extends React.Component {
 
 render() {
-    
+
     let teamTedLogo = "home-join-team-ted-logo.png"
     
     return(

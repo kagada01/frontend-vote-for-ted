@@ -152,9 +152,8 @@
 .ui.twitter.icon.button {
   position: relative !important;
   left: 0px;
-  height: 40px;
+  height: 30px;
   right: 0px;
-  
 }
 
 .ui.instagram.icon.right.floated.button {
@@ -170,6 +169,12 @@
   right: 0px;
   
 }
+
+/* .ui.tiny.one.buttons.sm-button-group {
+  padding-bottom: -10px;
+
+} */
+
 
 .ui.google.plus.small.inverted.button {
   position: relative !important;

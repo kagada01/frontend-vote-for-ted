@@ -22,6 +22,7 @@ render() {
         widths={1}>
        
             <Button 
+            href="https://www.facebook.com/Ted-Steinberg-508832629321897/"
             size="small"
             inverted={true}
             compact={true}
@@ -31,6 +32,7 @@ render() {
             </Button>     
 
             <Button
+            href="https://www.instagram.com/vote4ted/"
             size="small"
             inverted={true}
             compact={true}
@@ -41,6 +43,7 @@ render() {
             </Button>
 
             <Button 
+            href="https://twitter.com/Vote4Ted"
             size="small"
             inverted={true}
             compact={true}
@@ -49,11 +52,15 @@ render() {
                 <Icon name='twitter' /> Twitter
             </Button>   
 
-            <Button 
+            <Button
+            href="mailto:ted@vote4ted.com"
             size="small"
             inverted={true}
             color='google plus'>
-            Email
+            <Icon 
+                name={"envelope square"}/>
+            Email 
+            
             </Button>
 
         </Button.Group>   
