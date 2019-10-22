@@ -6,10 +6,17 @@ class NavBar extends React.Component {
     state = {}
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
+    submitEmail = (userEmail) => {
+        console.log("Successfully submitted email")
+    }
+
+
     render() {
         const { activeItem } = this.state
 
         return(
+
+            
 
             <Menu className="mainNav" >
             <Fragment>
@@ -69,6 +76,7 @@ class NavBar extends React.Component {
 
              
                 <Button 
+                onClick={this.submitEmail}
                 floated='right'
                 compact = {true}
                 className="donate"
