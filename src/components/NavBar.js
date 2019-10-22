@@ -76,6 +76,7 @@ class NavBar extends React.Component {
 
              
                 <Button 
+                href="https://secure.actblue.com/donate/theodore-steinberg-1"
                 onClick={this.submitEmail}
                 floated='right'
                 compact = {true}
