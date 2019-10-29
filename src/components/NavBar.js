@@ -6,11 +6,6 @@ class NavBar extends React.Component {
     state = {}
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
-    submitEmail = (userEmail) => {
-        console.log("Successfully submitted email")
-    }
-
-
     render() {
         const { activeItem } = this.state
 
@@ -23,6 +18,7 @@ class NavBar extends React.Component {
 
             <Image 
                 src="main-nav-logo-top-left.png" 
+                href="/home"
                 size="medium" 
                 className="main-nav-logo-top-left"
                 >
@@ -77,7 +73,6 @@ class NavBar extends React.Component {
              
                 <Button 
                 href="https://secure.actblue.com/donate/theodore-steinberg-1"
-                onClick={this.submitEmail}
                 floated='right'
                 compact = {true}
                 className="donate"

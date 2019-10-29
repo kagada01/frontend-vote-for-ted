@@ -4,10 +4,14 @@ import { Divider, Image, Header, Container, Form, Button, Message } from 'semant
 
 class JoinTeamTed extends React.Component {
 
-render() {
+    submitEmail = (userEmail) => {
+        console.log("Successfully submitted email") 
+    }
+
+    render() {
 
     let teamTedLogo = "home-join-team-ted-logo.png"
-    
+
     return(
          
 <Fragment>
@@ -39,6 +43,7 @@ render() {
         />
         
         <Button
+            onClick={this.submitEmail}
             className="submit-email-button"
         >Submit
         </Button>
