@@ -62,10 +62,15 @@ render() {
         className="endorsements-img"
         >
         </Image>
+        <Image
+        src="blue-mass-group-endorsement-image.png"
+        className="blue-mass-group-endorsement-image"
+        size="medium"
+        >
+        </Image>
+        
         <Divider>
-
         </Divider>
-        <br></br>
         <br></br>
         <br></br>
 

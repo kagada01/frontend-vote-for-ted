@@ -49,7 +49,7 @@ render() {
 
      
       <Home />
-        <JoinTeamTed/>
+        
 
       <MeetTed />
 
@@ -60,6 +60,7 @@ render() {
       <Debate />
 
       <Contact />
+      <JoinTeamTed/>
     
     </Switch>
    </Fragment>

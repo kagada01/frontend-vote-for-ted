@@ -1,13 +1,48 @@
 import React, { Component, Fragment } from 'react';
 import { NavLink, withRouter } from "react-router-dom";
 import { Divider, Image, Header, Container, Form, Button, Message } from 'semantic-ui-react';
+import swal from 'sweetalert';
+
 
 class JoinTeamTed extends React.Component {
 
-    submitEmail = (userEmail) => {
-        console.log("Successfully submitted email") 
+    constructor() {
+        super()
+
+        this.state = {
+            emailText: ""
+        }
+    }
+    
+    changeEmailText = (event) => {
+        let newEmailText = event.target.value
+        this.setState({
+            emailText: newEmailText
+        })
     }
 
+    submitEmail = (event) => {
+    let userEmailSubmission =  {
+        email: this.state.emailText
+    }
+
+    fetch("http://localhost:3000/users", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(userEmailSubmission)})
+            .then(res => res.json())
+            .then(submittedEmail => {
+                console.log(submittedEmail) 
+        })
+        swal({ 
+            text: "Email Submitted Successfully!",
+             icon: "success",
+             button: "OK"
+         })
+    }
+    
     render() {
 
     let teamTedLogo = "home-join-team-ted-logo.png"
@@ -34,7 +69,8 @@ class JoinTeamTed extends React.Component {
         <Form.Input 
         label='Email' 
         placeholder='ted@vote4ted.com'
-        inline={false}
+        inline={true}
+        onChange={this.changeEmailText}
         />
         <Message
         success

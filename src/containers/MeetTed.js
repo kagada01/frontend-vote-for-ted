@@ -91,13 +91,10 @@ render() {
                 <List.Item>- Be the Match Bone Marrow Registry</List.Item>
                     <br></br>
             </List>   
-
         </Container>
 
-        <JoinTeamTed />
-
-      
-
+        <JoinTeamTed/>
+    
         <Footer/>
     </Fragment>
     )

@@ -33,13 +33,12 @@
 }
 
 /* MainNav & Individual Links */
+/********************************/
+
 .mainNav {
   background: #2359B0 !important;
   margin: 0px !important;
-  /* padding: 10px !important; */
-  /* padding-bottom: 10px !important; */
-  position: static !important;
-  height: 130px;
+  position: relative !important;
 }
 
 .header.item {
@@ -47,21 +46,22 @@
 }
 
 .main-nav-logo-top-left {
-  width: 18% !important;
-  position: static;
+  width: 20% !important;
+  position: relative;
   left: 0 !important;
 }
 
 .button{
- position: absolute !important;
- margin-top: 40px !important;
- margin-right: 40px !important;
+ position: relative !important;
+ margin: 30px !important;
  right: 0;
+ display: inline-block;
  vertical-align: center;
  font-display: bold;
 }
 
-/* Home Elements */
+/**************Home***************/
+/********************************/
 
 .home-text-title {
   font-family: 'Montserrat', sans-serif;
@@ -75,6 +75,13 @@
 .endorsements-img {
   margin: auto;
   position: absolute;
+  /* right: 200px; */
+/* float: left; */
+}
+
+.blue-mass-group-endorsement-image {
+  margin: auto;
+
 }
 
 .ui.image.home-meet-ted-image {
@@ -90,12 +97,11 @@
   margin: 1rem;
 }
 
-/* Join Team Ted Component */
+/************JoinTeamTed*********/
+/********************************/
 
-.join-team-ted-div {
-  /* position: relative !important; */
-  /* float: center; */
-}
+/* .join-team-ted-div {
+} */
 
 .join-team-ted-logo {
   margin-left: 200px;
@@ -112,26 +118,23 @@
 }
 
 .ui.form.email-submit-form {
-  left: 150px;
-  position: relative !important;
-  float: left;
-  display: block !important;
-  width: 12%;
+  right: 50px;
+  position: static !important;
+  display: inline-block !important;
+  /* padding: 10px; */
+  /* bottom: 0px; */
+  /* width: 12%; */
 }
 
 .ui.button.submit-email-button {
- 
   position: relative !important;
-  right: -35px !important;
-  /* margin-top: 75px !important; */
-  /* bottom: 40px !important; */
+  right: -55px !important;
   display: inline-block !important; 
-  /* float: left !important; */
   margin-top: 0px !important;
-  /* margin-left: 45px !important; */
 }
 
-/* Footer */
+/*************Footer**************/
+/********************************/
 
 .ui.container.main-footer {
   margin-top: 20px;
@@ -146,7 +149,7 @@
 
 .sm-button-group {
   position: absolute !important;
-  bottom: 110px;
+  bottom: 90px;
   left: 330px !important;
   right: 400px !important;
   width: 50%;
@@ -163,7 +166,6 @@
   position: relative !important;
   left: 0px;
   right: 0px;
-
 }
 
 .ui.facebook.icon.button {
@@ -172,12 +174,6 @@
   right: 0px;
   
 }
-
-/* .ui.tiny.one.buttons.sm-button-group {
-  padding-bottom: -10px;
-
-} */
-
 
 .ui.google.plus.small.inverted.button {
   position: relative !important;
@@ -192,7 +188,8 @@
   /* left: 0px ; */
 }
 
-/* Debate Page styling */
+/* Debate Page*/
+/********************************/
 .debate-video-container {
   width: 50% !important;
   position: relative !important;
@@ -208,21 +205,21 @@
   left: 50px !important;
 }
 
-
-/* Meet Ted */
+/*********** Meet Ted ***********/
+/********************************/
 
 .local-roots-container {
   position: relative !important;
-  width:35% !important;
+  width: 35% !important;
   height: 50% !important;
   display: inline-flex !important;
 }
 
 .local-roots-list {
   position: absolute !important;
-  right: -400px;
-  top: 100px !important;
-  float: left !important;
+  right: -450px;
+  top: 60px !important;
+  float: right !important;
   width: 75% !important;
 }
 
@@ -271,13 +268,14 @@
 
 .ui.image.community-service-image {
   width: 40%;
-  left: 20px;
+  left: 40px;
 }
 
 .ui.list.community-service-list {
 position: relative !important;
+/* display: inline-block !important; */
 float: right;
-right: 200px;
+right: 150px;
 bottom: 400px;
 }
 
