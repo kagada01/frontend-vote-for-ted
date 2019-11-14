@@ -56,7 +56,6 @@ render() {
             <a href={globeArticle}>Should any increases in major state taxes be on the table in state budget talks for next year? - <b>YES</b></a> 
         </p>
         
-
         <Image
         src="endorsements-home.png"
         className="endorsements-img"

@@ -50,19 +50,20 @@ class JoinTeamTed extends React.Component {
     return(
          
 <Fragment>
-    <br></br>
-    <br></br>
+  
+    <section className="join-team-ted-section">
         <Image
         className="join-team-ted-logo"
         src={teamTedLogo}
         size="medium">
         </Image>
-        <h2 
+       
+        <Header
+            as="h2"
             className="cta-join-team-ted"
             align="center">JOIN TEAM TED!
-        </h2>
+        </Header>
     
-
     <Form
     children="join-team-ted-div"
     className="email-submit-form">
@@ -85,6 +86,7 @@ class JoinTeamTed extends React.Component {
         </Button>
 
     </Form>
+    </section>
 
 </Fragment>
     )
